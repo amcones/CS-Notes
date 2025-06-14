@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install pipenv
-      - run: pipenv install
+      - run: pipenv install --dev
       - run: mkdocs gh-deploy --force
